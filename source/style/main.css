@@ -22,11 +22,11 @@ h2 {
     padding: 1.25rem;
 }
 
-#header > img {
+#header > a > img {
     width: 8rem;
 }
 
-#header > i {
+#header > a > i {
     color: white;
     float: right;
 }
