@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+#header {
+    background-color: #404040;
+    padding: 1.25rem;
+}
+
+#header > img {
+    width: 8rem;
+}
+
+#header > i {
+    color: white;
+    float: right;
+}
+
+#footer {
+    background-color: #404040;
+    padding: 1.25rem;
+    color: white;
+}

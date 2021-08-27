@@ -1,0 +1,52 @@
+#slideshow {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#slideshow > img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.shortmenu {
+    margin: 0;
+    padding: 3em;
+    background-color: #f7f8f8;
+    overflow: auto;
+    transition: all ease 0.8s;
+}
+
+.shortmenu > h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #3A3C68;
+}
+
+.shortmenu > h2 {
+    color: #81A6D3;
+}
+
+.shortmenu > img {
+    width: 10em;
+    float: right;
+}
+
+.shortmenu:hover{
+    background-color: #3A3C68;
+    color: white;
+    transition: all ease 0.8s;
+}
+
+.shortmenu:hover > h1 {
+    color: white;
+    transition: all ease 0.8s;
+}
+
+.shortmenu:hover > h2 {
+    color: white;
+    transition: all ease 0.8s;
+}
