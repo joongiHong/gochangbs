@@ -13,6 +13,24 @@
     <link rel="stylesheet" href="../source/style/main.css" type="text/css">
     <link rel="stylesheet" href="../source/style/docs.css" type="text/css">
     <script src="https://kit.fontawesome.com/139b8c0516.js" crossorigin="anonymous"></script>
+
+    <!-- 출력 안내문 -->
+    <script language="javascript">
+        
+        function printAc() {
+            var agent = navigator.userAgent.toLowerCase();
+
+            if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
+                if (confirm("<브라우저 안내>\n익스플로러에서는 출력 시 가독성이 떨어지는 문서로 출력될 수 있습니다.\n가급적 웨일, 크롬, 파이어폭스 등 다른 브라우저에서 출력하시는 것을 권장합니다.\n\n출력하시겠습니까?"))
+                {
+                    window.print()
+                }
+            } else {
+                window.print()
+            }
+            
+        }
+    </script>
 </head>
 
 <body>
@@ -20,12 +38,15 @@
     <div id="header">
         <a href="../index.html"><img src="../source/image/logo/logo.png" alt="GBS MECCA 로고 이미지"/></a>
         <a href="sitemap.html"><i class="fas fa-compass fa-2x"></i></a>
+        <a href="javascript:printAc();"><i class="fas fa-print fa-2x"></i></a>
     </div>
     <!-- 헤더 공통 영역 끝-->
 
     <!-- 문서 위치 고유 영역-->
-    <p style="margin-left: 1.5em;">테스트 > 테스트</p>
-    <hr style="height: 1px; background-color: #3A3C68; border: 0; margin-bottom: 0;">
+    <div id="section">
+        <p style="margin-left: 1.5em;">테스트 > 테스트</p>
+        <hr style="height: 1px; background-color: #3A3C68; border: 0; margin-bottom: 0;">
+    </div>
     <!-- 문서 위치 고유 영역 끝-->
 
     <!-- 본문 고유 영역-->
