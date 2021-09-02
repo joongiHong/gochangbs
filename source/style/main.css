@@ -36,3 +36,14 @@ h2 {
     padding: 1.25rem;
     color: white;
 }
+
+#footer > #hjg {
+    margin-top: 0;
+    display: inline-block;
+}
+
+#footer > img {
+    width: 2rem;
+    margin-bottom: 0;
+    display: inline-block;
+}
